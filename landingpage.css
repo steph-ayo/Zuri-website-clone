@@ -1,0 +1,319 @@
+* {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+header { 
+    height: 120vh;
+    background-image: url(./images/landingpage/hero-bg.svg)
+}
+.header-fluid {
+    width: 50%;
+    height: 120vh;
+    margin: auto;
+    text-align: center;
+}
+.header-fluid h1 {
+    font-size: 1.7rem;
+}
+.header-fluid p {
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+.header-fluid a {
+    text-decoration: none;
+}
+header img {
+    padding: 3rem;
+    margin-top: 2.5rem;
+}
+
+header h1 {
+    padding: 2rem;
+}
+
+header p {
+    padding-bottom: 4.5rem;
+}
+
+header p a {
+    color: red;
+    text-decoration: none;
+}
+
+.header-btn {
+    padding: 0.6rem 1.5rem;
+}
+
+.btn1 {
+    color: white;
+    border: none;
+    font-size: 16px;
+    background-color: red;
+    margin-right: 0.5rem;
+}
+.btn1:hover {
+    color: red;
+    background-color:  transparent;
+    border: 1px solid red;
+}
+
+.btn2 {
+    color: red;
+    font-size: 16px;
+    background-color:  transparent;
+    margin-left: 0.5rem;
+    border: 1px solid red;
+}
+.btn2:hover {
+    color: white;
+    background-color: red;
+}
+
+.body-text {
+    padding-top: 9rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 28%;
+    height: 80vh;
+    padding: 3.5rem 2.5rem;
+    background-color:rgb(252, 244, 245);
+    border: none;
+}
+.card img {
+    width: 45%;
+    margin-bottom: 2rem;
+}
+
+.card-text {
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+.card-body a {
+    color: red;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.container-1 {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 12rem;
+}
+
+#footer-logo {
+    width: 8rem;
+    height: 8rem;
+}
+
+.mini-links {
+    display: flex;
+    flex-direction: column;
+    color: red;
+}
+.mini-links a {
+    color: red;
+    text-decoration: none;
+}
+
+.e-mail {
+    color: red;
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.container-2 {
+    width: 85%;
+    height: 25vh;
+    margin: auto;
+    border-top: 3px solid grey;
+    text-align: center;
+}
+
+.container-2 h6{
+    padding-top: 2rem;
+}
+
+@media screen and (max-width:912px) {
+    header { 
+        height: 40vh;
+    }
+    .header-fluid {
+        width: 75%;
+    }
+    .header-fluid h1 {
+        font-size: 1.8rem;
+    }
+    .header-fluid p {
+        font-size: 1.1rem;
+        line-height: 1.7rem;
+    }
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 90%;
+        margin: auto;
+        gap: 3vh;
+    }
+    .card {
+        width: 100%;
+        height: 40vh;
+    }
+    .container-1 {
+        height: 30vh;
+    }
+    .container-2 {
+        height: 10vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header { 
+        height: 70vh;
+    }
+    .card {
+        width: 100%;
+        height: 40vh;
+    }
+    .card img {
+        width: 45%;
+        height: 15vh;
+    }
+    .container-1 {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width:375px) {
+    header { 
+        height: 90vh;
+    }
+    .header-fluid {
+        width: 95%;
+    }
+    .header-fluid h1 {
+        font-size: 1.2rem;
+    }
+    .header-fluid p {
+        font-size: 1.1rem;
+        line-height: 1.7rem;
+    }
+    .btn1 {
+        margin-right: 0rem;
+        margin-bottom: 2rem;
+    }
+    .btn2 {
+        margin-left: 0rem;
+    }
+    .body-text {
+        width: 90%;
+        margin: auto;
+    }
+    .body-text h4 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        width: 1005;
+    }
+    .card {
+        width: 90%;
+        height: 80vh;
+        padding: 3.5rem 2.5rem;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    .card img {
+        width: 45%;
+        margin-bottom: 2rem;
+    }
+    
+    .card-text {
+        font-size: 17px;
+        margin-bottom: 1rem;
+    }
+    .card-body a {
+        color: red;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    footer {
+        height: 120vh;
+    }
+    
+    .container-1 {
+        width: 100%;
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+        padding-top: 10rem;
+        text-align: center;
+        padding-bottom: 10rem;
+    }
+    
+    #footer-logo {
+        width: 12rem;
+        height: 12rem;
+        margin: auto;
+    }
+    .links, .contact, .follow {
+        margin-top: 2rem;
+    }
+    .links h6, .contact h6 {
+        font-size: 27px;
+    }
+    .mini-links {
+        display: flex;
+        flex-direction: column;
+        color: red;
+        line-height: 30px;
+    }
+    .mini-links a {
+        color: red;
+        text-decoration: none;
+    }
+    .e-mail {
+        color: red;
+        text-decoration: none;
+    }
+    
+    .social-icons img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    
+    .container-2 {
+        width: 85%;
+        height: 25vh;
+        margin: auto;
+        border-top: 3px solid grey;
+        text-align: center;
+    }
+    
+    .container-2 h6{
+        padding-top: 2rem;
+    }
+}

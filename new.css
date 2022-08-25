@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+nav {
+    border: 1px solid red;
+    width: 100%;
+    height: 15vh;
+    /* position: fixed; */
+}
+.navbar-fluid {
+    border: 1px solid green;
+    width: 90%;
+    margin: auto;
+    height: 15vh;
+    display: flex;
+}
+.i4g-zuri-logo {
+    width: 25%;
+    height: 15vh;
+    border:2px solid blue;
+    cursor: pointer;
+}
+.nav-links {
+    width: 40%;
+    border: 2px solid green;
+    justify-content: space-around;
+    text-align: end;
+    margin-left: 14.5%;
+    margin-right: 5%;
+    padding-top: 4.5vh;
+}
+.nav-links a {
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.enroll-container {
+    border: 1px solid blue;
+    width: 17%;
+    height: 15vh;
+    display: flex;
+}
+.thumb {
+    border: 1px solid red;
+    background-color: red;
+    width: 37%;
+    height: 12vh;
+    border-radius: 50px 26px 30px 50px;
+    margin-top: 1.5vh;
+    cursor: pointer;
+}
+#enroll-btn {
+    border: 1px solid red;
+    border-radius: 0 30px 30px 0px;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    width: max-content;
+    padding: 9px 25px;
+    margin-top: 4vh;
+}
+/* Styling of section1 */
+.section-1 {
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    margin-top: 6rem;
+    display:flex;
+    border-bottom: 1px solid grey;
+}
+.section-1 .image-container {
+    width: 30%;
+    padding-top: 7rem;
+    border: 1px solid red;
+}
+.section-1 .text-container {
+    width: 40%;
+    padding-top: 4rem;
+    text-align: center;
+}
+.header-text-1 {
+    font-size: 20px;
+}
+.text-container h1 {
+    font-size: 47px;
+    font-weight: 900;
+}
+.header-text-2 {
+    font-size: 25px;
+    margin-top: 2rem;
+    color: grey;
+}
+#section-1-btn {
+    border: none;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    width: max-content;
+    padding: 10px 27px;
+    margin-top: 3rem;
+}
+.section-1-line {
+    width: 10rem;
+    margin-left: 10rem;
+}
+.section-1-wire {
+    width: 10rem;
+    height: 7rem;
+    margin-left: 8rem;
+}
+
+/* Styling of section2 */
+.section-2 {
+    width: 90%;
+    height: 40vh;
+    margin: auto;
+    display:flex;
+    border-bottom: 1px solid grey;
+}
+.section-2-mini-container1 {
+    border: 1px solid red;
+    width: 34%;
+    height: 40vh;
+    padding-top: 4.5rem;
+}
+.section-2-mini-container1 h1 {
+    font-size: 25px;
+    font-family: 500;
+    line-height: 35px;
+}
+.ingresive-container {
+    border: 1px solid green;
+    width: 32%;
+    height: 40vh;
+}
+.logo {
+    border: 1px solid red;
+    width: 70%;
+    margin-left: 15%;
+    height: 30vh;
+    margin-top: 5vh;
+}
+.section-2-mini-container3 {
+    border: 1px solid red;
+    width: 34%;
+    height: 40vh;
+    padding-top: 2.3rem;
+    text-align: right;
+}
+.section-2-mini-container3 h2 {
+    font-size: 30px;
+    font-family: 200;
+    line-height: 35px;
+}
+.section-3 {
+    width: 90%;
+    /* height: 200vh; */
+    margin: auto;
+}
+/* Styling of section3a */
+.section-3a {
+    width: 100%;
+    height: 65vh;
+    display:flex;
+}
+.text-container {
+    width: 55%;
+    text-align: left;
+    border: 1px solid red;
+}
+.text-container h4 {
+    font-size: 27px;
+    line-height: 35px;
+}
+.text-container h1 {
+    font-size: 45px;
+    line-height: 55px;
+}
+.star-image-container {
+    width: 45%;
+    padding-top: 10rem;
+    padding-left: 5%;
+    border: 1px solid red;
+}
+/* Styling of section3b */
+#section-3b {
+    width: 100%;
+    height: 130vh;
+    display:flex;
+    flex-direction: column;
+    gap: 4vh;
+    border: 1px solid red;
+    margin-bottom: 17vh;
+}
+.row {
+    width: 100%;
+    height: 65vh;
+    display: grid;
+    display: flex;
+    gap: 2%;
+}
+.col {
+    width: 32%;
+    border: 1px solid red;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px 15px rgb(0, 0, 0, 0.1);
+    background-color: white;
+}
+.upper {
+    display: flex;
+}
+.upper h1 {
+    color: black;
+    margin-left: 15%;
+    font-size: 60px;
+    margin-top: 8vh;
+}
+.curve {
+    width: 35%;
+    height: 18vh;
+    margin-left: 39%;
+}
+.lower {
+    width: 70%;
+    margin: auto;
+    border: 1px solid red;
+}
+.lower h2 {
+    color: black;
+    font-size: 40px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.lower p {
+    color: black;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width:768px) {
+    .navbar-fluid {
+        justify-content: space-between;
+    }
+    .i4g-zuri-logo {
+        width: 40%;
+    }
+    .nav-links {
+       display:none;
+    }
+    .nav-links a {
+        display:none;
+    }
+    .enroll-container {
+        width: 40%;
+        height: 15vh;
+    }
+    .thumb {
+        width: 32%;
+        height: 8vh;
+        margin-top: 3vh;
+    }
+    #enroll-btn {
+        font-size: 22px;
+        height: 6vh;
+        width: max-content;
+        padding: 9px 40px;
+        margin-top: 4vh;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .navbar-fluid {
+        justify-content: space-between;
+    }
+    .i4g-zuri-logo {
+        width: 45%;
+    }
+    .nav-links {
+       display:none;
+    }
+    .nav-links a {
+        display:none;
+    }
+    .enroll-container {
+        width: 50%;
+        height: 15vh;
+    }
+    .enroll-container {
+        width: 50%;
+        height: 15vh;
+    }
+    .thumb {
+        width: 32%;
+        height: 8vh;
+        margin-top: 3vh;
+    }
+    #enroll-btn {
+        font-size: 17px;
+        height: 6vh;
+        width: max-content;
+        padding: 4px 20px;
+        margin-top: 4vh;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .navbar-fluid {
+        justify-content: space-between;
+    }
+    .i4g-zuri-logo {
+        width: 45%;
+    }
+    .nav-links {
+       display:none;
+    }
+    .nav-links a {
+        display:none;
+    }
+    .enroll-container {
+        width: 50%;
+        height: 15vh;
+    }
+    .enroll-container {
+        width: 50%;
+        height: 15vh;
+    }
+    .thumb {
+        width: 32%;
+        height: 8vh;
+        margin-top: 3vh;
+    }
+    #enroll-btn {
+        font-size: 17px;
+        height: 6vh;
+        width: max-content;
+        padding: 7px 15px;
+        margin-top: 4vh;
+    }
+}

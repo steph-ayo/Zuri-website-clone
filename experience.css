@@ -1,0 +1,691 @@
+* {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+header {
+    width: 100%;
+    height: 12vh;
+    position: fixed;
+    background-color: white;
+}
+nav {
+    width: 100%;
+    height: 12vh;
+    position: fixed;
+    background-color: white;
+}
+.container-fluid {
+    width: 85%;
+    height: 10vh;
+    margin: auto;
+}
+#links {
+    margin-left: 50%;
+}
+#link {
+    margin-left: 3rem;
+    cursor: pointer;
+}
+#link a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+#link a:hover {
+    border-bottom: 3px solid red;
+    transition: 0.4s;
+}
+#link-btn-mobile {
+    color: white;
+    background-color: red;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 0 0 8px 0;
+    font-size: 20px;
+}
+/* Styling of section1 */
+.section-1 {
+    width: 100%;
+    height: 105vh;
+    display: flex;
+    padding: 11rem 0 7rem 5rem;
+}
+.section-1 .text-container {
+    width: 60%;
+    height: 73vh;
+}
+.inner {
+    width: 80%;
+    margin-top: 9rem;
+}
+.inner h2 {
+    font-size: 2.3rem;
+}
+#thick-line {
+    margin-left: 58%;
+    margin-top: -1.9rem;
+}
+.inner p {
+    width: 70%;
+    margin-top: 1.3rem;
+    font-size: 16px;
+    color: grey;
+}
+.inner button {
+    color: white;
+    background-color: red;
+    padding: 0.5rem 3rem;
+    border: none;
+    border-radius: 0 0 8px 0;
+    margin-top: 1.5rem;
+}
+#btn2 {
+    background-color: rgb(71, 71, 71);
+    margin-left: 10px;
+}
+.section-1 .image-container {
+    width: 40%;
+    height: 73vh;
+    display: flex;
+}
+.smile {
+    width: 80%;
+    height: 73vh;
+}
+#thick-line2 {
+    width: 20%;
+    margin-top: 10rem;
+}
+
+/* Styling of section2 */
+.section-2 {
+    width: 100%;
+    height: 90vh;
+    background-image: url(./images/experience/bgsection2.063bd869082548bafa74.png);
+    background-size: 100% 95vh;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 4rem 0 5rem 5rem;
+}
+.section-2 .text-container {
+    width: 60%;
+    height: 70vh;
+}
+.section-2 .text-container h2 {
+    width: 80%;
+    font-size: 2.8rem;
+}
+
+.section-2 .text-container p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.countries {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+.country {
+    width: 15%;
+    background-color: white;
+}
+.section-2 .image-container {
+    width: 40%;
+    height: 70vh;
+}
+.myyy2 {
+    width: 80%;
+}
+
+/* Styling of Section 3 */
+.section-3 {
+    width: 100%;
+    height: 75vh;
+}
+.section-3 .inner-container {
+    width: 75%;
+    margin-left: 7%;
+    margin-top: 5rem;
+}
+.first {
+    margin-bottom: 1.5rem;
+}
+.first h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+#first-btns button {
+    color: grey;
+    padding: 0.8rem 1.8rem;
+    border: none;
+    margin-right: 2rem;
+    border-radius: 10px;
+    width: max-content;
+    background-color: white;
+    box-shadow: 15px 15px 15px 15px rgb(0, 0, 0, 0.05);
+}
+.second h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+#second-btns button {
+    color: grey;
+    padding: 0.8rem 1.3rem;
+    border: none;
+    border-radius: 10px;
+    margin-right: 1.2rem;
+    border: 10px;
+    width: max-content;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px rgb(0, 0, 0, 0.1);
+}
+
+/* Styling of section 4 */
+.section-4 {
+    width: 100%;
+    height: 150vh;
+    background-color: rgb(253, 233, 215);
+    border: 1px solid rgb(253, 233, 215);
+}
+.section-4 .container {
+    width: 85%;
+    margin: auto;
+    margin-top: 6rem;
+    text-align: center;
+}
+.card-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    gap: 2%;
+}
+.card-container1 {
+    width: 100%;
+    height: 43vh;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 8vh;
+}
+.card-container2 {
+    width: 65%;
+    margin:auto;
+    height: 43vh;
+    display: flex;
+    justify-content: space-between;
+} 
+.card {
+    width: 32%;
+    height: 43vh;
+    text-align: center;
+    padding: 3rem;
+    border-radius: 0 0 15px 0;
+}
+.card-container2 .card {
+    width: 48%;
+}
+#card4 {
+    margin-left: 17%;
+    margin-top: 1rem;
+}
+#card5 {
+    margin-top: 1rem;
+}
+.card:hover {
+    background-color: rgb(31, 31, 31);
+}
+.card img {
+    width: 5rem;
+    height: 5rem;
+    margin: auto;
+}
+.card p {
+    color: grey;
+    font-size: 15px;
+    margin-top: 1.5rem;
+}
+.card p:hover {
+    color: white;
+}
+
+/* Styling of section 4 buttons */
+.section-4-btns {
+    margin-top: 3.5rem;
+}
+.section-4-btns button {
+    color: white;
+    background-color: red;
+    padding: 0.5rem 3rem;
+    border: none;
+    border-radius: 0 0 8px 0;
+}
+#first {
+    margin-right: 7px;
+}
+#second {
+    background-color: rgb(71, 71, 71);
+    margin-left: 7px;
+} 
+
+/* Styling of footer */
+footer {
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    flex-direction: column;
+}
+.footer-container1 {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.icons img {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.4rem;
+}
+.footer-container2 {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.copyright, .mail {
+    color: white;
+}
+
+@media screen and (max-width:912px){
+    /* Styling of section1 */
+    .section-1 {
+        width: 75%;
+        margin: auto;
+        height: 93vh;
+        display: flex;
+        flex-direction: column;
+        padding: 7rem 0 0rem 0rem;
+    }
+    .section-1 .text-container {
+        width: 100%;
+        height: 73vh;
+        margin-bottom: 3rem;
+    }
+    .inner {
+        width: 100%;
+        margin-top: 9rem;
+        text-align: center;
+    }
+    #thick-line {
+        margin-left: 57%;
+        margin-top: -1.9rem;
+    }
+    .inner p {
+        margin-left: 6rem;
+    }
+    .section-1 .image-container {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        margin-bottom: 6vh;
+    }
+    .smile {
+        width: 90%;
+        height: 50vh;
+        margin: auto;
+    }
+    #thick-line2 {
+        display: none;
+    }
+    .section-2 {
+        height: 40vh;
+    }
+    /* Styling of Section 3 */
+    .section-3 {
+        width: 100%;
+        height: 33vh;
+    }
+    .section-3 .inner-container {
+        width:90%;
+        margin: auto;
+        margin-top: 5rem;
+    }
+    #first-btns button {
+        padding: 0.8rem 1.5rem;
+        margin-right: 1rem;
+    }
+    #second-btns button {
+        padding: 0.8rem 1.1rem;
+        margin-right: 0.7rem;
+    }
+    /* Styling of section 4 */
+    .section-4 {
+        width: 100%;
+        height: 90vh;
+    }
+    .section-4 .container {
+        width: 100%;
+        margin: auto;
+        margin-top: 6rem;
+    }
+    .card-container {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 2%;
+        row-gap: 3%;
+    }
+    .card {
+        width: 49%;
+        height: 20vh;
+        margin-top: 1rem;
+    }
+    #card5 {
+        width: 100%;
+        margin-top: 2rem;
+    }
+    #card4 {
+        margin-left: 0%;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .section-1 {
+        height: 120vh;
+        padding: 5rem 0 0rem 0rem;
+    }
+    .section-2 {
+        width: 100%;
+        height: 78vh;
+        background-image: url(./images/experience/bgsection2.063bd869082548bafa74.png);
+        background-size: 100% 95vh;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        padding: 0rem 0 0rem 0rem;
+    }
+    .section-2 .text-container {
+        width: 70%;
+        margin: auto;
+        height: 30vh;
+        text-align: center;
+    }
+    .section-2 .text-container h2 {
+        width: 80%;
+        margin: auto;
+        font-size: 1.8rem;
+    }
+    .section-2 .text-container p {
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    .p2 {
+        color: grey;
+    }
+    .countries {
+        width: 55%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+    }
+    .country {
+        width: 15%;
+        background-color: white;
+    }
+    .section-2 .image-container {
+        width: 70%;
+        margin: auto;
+        height: 40vh;
+        margin-bottom: 4rem;
+    }
+    .myyy2 {
+        width: 80%;
+        margin-left: 10%;
+    }
+    /* Styling of Section 3 */
+    .section-3 {
+        width: 100%;
+        height: 50vh;
+    }
+    .section-3 .inner-container {
+        width:90%;
+        margin: auto;
+        margin-top: 5rem;
+        text-align: center;
+    }
+    #first-btns button {
+        padding: 0.8rem 1.5rem;
+        margin-right: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    #second-btns button {
+        padding: 0.8rem 3rem;
+        margin-right: 0.7rem;
+        margin-bottom: 0.5rem;
+    }
+     /* Styling of section 4 */
+     .section-4 {
+        height: 120vh;
+    }
+    .card {
+        height: 27vh;
+    }
+}
+
+@media screen and (max-width:375px){
+    .container-fluid {
+        width: 100%;
+    }
+    .container-fluid img {
+        width: 40%;
+    }
+    /* Styling of section1 */
+    .section-1 {
+        width: 100%;
+        height: 140vh;
+        display: flex;
+        padding: 0rem 0 0rem 0rem;
+    }
+    .section-1 .text-container {
+        width: 90%;
+        margin:auto;
+        height: 73vh;
+    }
+    .inner {
+        width: 100%;
+        margin-top: 9rem;
+        text-align: center;
+    }
+    .inner h2 {
+        font-size: 2.5rem;
+    }
+    .inner p {
+        margin-left: 3rem;
+    }
+    #btn1-2 {
+        display: flex;
+        flex-direction: row;
+    }
+    .inner button {
+        padding: 0.7rem 2rem;
+    }
+    .section-1 .image-container {
+        width: 90%;
+        height: 50vh;
+        margin-left: 5%;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+    }
+    .smile {
+        width: 100%;
+        height: 50vh;
+    }
+    #thick-line2 {
+        display: none;
+    }
+    /* Styling of section2 */
+    .section-2 {
+        width: 100%;
+        height: 115vh;
+        background-size: 100% 115vh;
+        flex-direction: column;
+        padding: 6rem 0 5rem 0rem;
+    }
+    .section-2 .text-container {
+        width: 90%;
+        margin: auto;
+        height: 40vh;
+        text-align: left;
+    }
+    .section-2 .text-container h2 {
+        width: 100%;
+        font-size: 1.6rem;
+    }
+    .section-2 .text-container p {
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .countries {
+        width: 96%;
+        margin: auto;
+    }
+    .section-2 .image-container {
+        width: 90%;
+        height: 40vh;
+        margin-top: 3rem;
+    }
+
+    /* Styling of Section 3 */
+    .section-3 {
+        width: 100%;
+        height: 120vh;
+    }
+    .section-3 .inner-container {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5rem;
+    }
+    .first h1 {
+        font-size: 2rem;
+    }
+    #first-btns {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5%;
+    }
+    #first-btns button {
+        padding: 1.5rem 0.6rem;
+        margin-right: 0rem;
+        width: 46%;
+    }
+    .second h1 {
+        font-size: 1.6rem;
+    }
+    #second-btns button {
+        padding: 1.5rem 0.9rem;
+        width: 45%;
+    }
+    #second-btns {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3%;
+    }
+/* Styling of section 4 */
+    .section-4 {
+        width: 100%;
+        height: 270vh;
+    }
+    .section-4 .container {
+        width: 90%;
+        margin: auto;
+        margin-top: 6rem;
+        text-align: center;
+    }
+    .card-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+    }
+    .card {
+        width: 100%;
+        height: 41vh;
+        border: none;
+    }
+    #card4, #card5 {
+        margin-top: 1rem;
+    }
+    /* Styling of section 4 buttons */
+    .section-4-btns {
+        display: flex;
+        flex-direction: row;
+        gap: 6%;
+    }
+    .section-4-btns button {
+        width: 47%;
+    }
+    #first {
+        margin-right: 0px;
+        padding: 1rem 2rem;
+    }
+    #second {
+        margin-left: 0px;
+        padding: 1rem 1rem;
+    }
+    /* Styling of footer */
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+    .footer-container1 {
+        width: 55%;
+        margin: auto;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 4rem;
+    }
+    .footer-logo  {
+        width: 70%;
+        height: 7vh;
+        margin: auto;
+    }
+    .icons {
+        margin-top: 2rem;
+    }
+    .icons img {
+        margin-left: 0.8rem;
+    }
+    .footer-container2 {
+        width: 85%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 3.5rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .copyright, .mail {
+        color: white;
+        font-size: 18px;
+    }
+    .copyright {
+        margin-top: 3rem;
+        border-top: 2px solid grey;
+    }
+    .mail {
+        margin-top: -7rem;
+        margin-bottom: 3.5rem;
+    }
+}
